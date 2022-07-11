@@ -1,0 +1,408 @@
+body {
+    background-color: #f6f8f8;
+}
+
+.iphone-13-pro>img {
+    width: 500px;
+}
+
+.ip-13ii {
+    display: none;
+}
+
+.first-section {
+    width: 100%;
+    padding: 2.3vw 2.3vw 0;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 8px solid #fff;
+}
+
+.title {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.title-heading {
+    font-size: clamp(1.5rem, 21.9vw - 8.1rem, 3.3rem);
+    line-height: 1.2;
+    letter-spacing: -0.005rem;
+    margin-top: 4rem;
+}
+
+.title-sub-heading {
+    font-size: clamp(1rem, 21.9vw - 8.1rem, 2rem);
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.cta-link {
+    font-size: clamp(1.2rem, 3.2vw + 0.1rem, 1.55rem);
+    margin: 0.9rem 0;
+    color: #3399CC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cta-link:hover {
+    text-decoration: underline;
+    color: #cc339e;
+}
+
+/* IPHONE SE SECTION */
+.title-para {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.title-heading-1 {
+    font-size: clamp(1.5rem, 21.9vw - 8.1rem, 3.3rem);
+    line-height: 1;
+    letter-spacing: -0.005rem;
+}
+
+.title-heading-1 .se {
+    font-size: 30px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+
+/* END OF IPHONE SE SECTION */
+
+/* ipad Air Section */
+.ipad-air {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span.air {
+    background: -webkit-linear-gradient(#6f2dfd, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'dancing script', cursive;
+    font-size: 70px;
+    padding: 1.9px;
+}
+
+.air-title {
+    padding-left: 20px;
+    font-size: clamp(1.5rem, 1.2vw + 1.1rem, 3rem);
+}
+
+/* END IPAD AIR SECTION */
+
+/* CATELOGUE SECTION */
+.catelogue {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow-y: hidden;
+    border-top: 12px solid #fff;
+    border-left: 12px solid #fff;
+}
+
+.studio-sub-heading {
+    font-weight: 350;
+}
+
+.one {
+    border-bottom: 12px solid #fff;
+    border-right: 12px solid #fff;
+    padding: 0 5%;
+    text-align: center;
+    position: relative;
+}
+
+.pd {
+    padding: 40px 0;
+    line-height: 1.5;
+}
+
+.pd-1 {
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.move {
+    position: absolute;
+    object-fit: cover;
+    object-position: 0 39px;
+    right: 10%;
+    bottom: 0%;
+}
+
+.move-2 {
+    object-fit: cover;
+    object-position: 0 0;
+    position: absolute;
+    right: 8%;
+    bottom: 0%
+}
+
+.move-3 {
+    object-fit: cover;
+    object-position: 0 -30px;
+}
+
+/*  >>>>>>>>>>>>>>>>>>>> END OF CATELOGUE SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.footer {
+    width: 70%;
+    margin: 0.5% auto;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .3fr;
+    padding: .7rem 0;
+}
+
+.footer-section h5 {
+    font-weight: 600;
+}
+
+.footer div ul,
+li {
+    list-style-type: none;
+}
+
+.retailer {
+    padding: 10px 0;
+}
+
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.site {
+    display: flex;
+}
+
+.shrek {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h5,
+.explore li,
+.service li,
+.account li,
+.about-apple li,
+.retailer,
+.shrek li {
+    font-size: .8rem;
+    line-height: 2;
+}
+
+.mobile {
+    display: block;
+}
+
+.fa-plus {
+    display: none;
+}
+
+/* =========>>>>>>>>>>>>>>>>>>>>>MEDIA QUERY =======================>>>>>>>>>>>>> */
+@media screen and (max-width: 1300px) {
+    .mac {
+        width: 80%;
+    }
+
+    .copyright-section {
+        width: 100%;
+    }
+}
+
+/*  >>>>>>>> MEDIA QUERY FOR IPHONE 13 PRO >>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (max-width: 768px) {
+    .first-section {
+        overflow-x: hidden;
+        margin: 1.5% auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .iphone-13-pro .ip13 {
+        display: none;
+    }
+
+    .ip-13ii,
+    .ipse {
+        max-width: 500px;
+        display: block;
+    }
+
+    .iphone-SE {
+        overflow-x: hidden;
+    }
+
+    .ipad-air {
+        /* display: block; */
+        overflow: hidden;
+        padding: 20px;
+        flex-direction: column;
+        padding: 35px;
+        text-align: center;
+    }
+
+    .ipad-air img {
+        width: 120%;
+    }
+
+    .air-title {
+        margin-bottom: 25px;
+        line-height: 1.8;
+    }
+
+    .catelogue img {
+        width: 80%;
+    }
+
+    .catelogue {
+        display: block;
+        /* margin: 10vw; */
+    }
+
+    .studio {
+        text-align: center;
+        line-height: 1.5;
+        padding-bottom: 50px;
+    }
+
+    .one {
+        padding-bottom: 30px;
+        /* border-bottom: #000; */
+    }
+
+    .one-plus {
+        padding-bottom: 300px;
+    }
+
+    .two-plus {
+        padding-bottom: 500px;
+    }
+
+    .move {
+        right: 10%;
+    }
+
+    .gege {
+        object-fit: contain;
+        object-position: 0 15px;
+    }
+
+    .shrek li,
+    .fa-plus,
+    .footer-section ul li {
+        font-size: .6rem;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .title-heading-1 .se {
+        font-size: 20px;
+    }
+
+    .air-title .air {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .ipse {
+        object-fit: cover;
+        object-position: 130px;
+    }
+
+    .footer-section {
+        display: block;
+    }
+
+    .one-plus {
+        padding-bottom: 170px;
+    }
+
+    .two-plus {
+        padding-bottom: 260px;
+    }
+}
+
+/*  >>>>>>>>>>> END OF MEDIA QUERY FOR IPHONE 13 PRO >>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 800px) {
+    .footer-section {
+        display: block;
+    }
+
+    .invis {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #700;
+        padding: 10px 0;
+    }
+
+    .fa-plus {
+        display: inline;
+    }
+
+
+    .shrek {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .shrek .nigeria {
+        padding-bottom: 10px;
+    }
+
+    .copyright-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .site {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 348px) {
+    .site {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
